@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.in
+{
+	color: black; /* Je vais mettre un peu de couleurs car c'est un peu triste comme website */
+    text-align: center;
+} 
+.flottant
+{
+    float: center;
+}
+.logo
+{
+    float:left;
+}
+p
+{
+    font-family: 'ambleregular';
+	font-size: 14px;
+    text-align: justify;
+    color: black;
+    background-color: orange; 
+    opacity: 0.5;
+    width: 60%;
+    height: ;
+}
+*
+{
+    clear:left;
+    text-align: justify-all;
+}
+li
+{
+    clear:left;
+}
+/* Les titres*/
+h1 
+{
+      text-align: justify;
+      font-size: 1.6em; 
+      font-family: 'ambleregular';
+      background-color: grey;
+      width: 78% ;
+      height: ;
+
+}
+h2 
+{
+    text-align: left;
+    font-size: 1.2em; 
+    font-family: 'ambleregular';
+}
+h3 
+{
+     text-align: left;
+     font-size: 0.9em; 
+    font-family: 'ambleregular';
+    clear:left;
+}
+h4
+{
+     text-align: left;
+     font-size: 0.9em; 
+      font-family: 'ambleregular';
+}
+h1
+{
+    border: 3px black outset;
+    border-radius: 20px/25px;
+    background: white;
+    color:black;
+    opacity:0.5;
+    box-shadow: 5px 5px 2px black;
+    text-shadow: 5px 5px 1px ...; /*Même chose que le box c'est pour avour de l'ombre au niveau du texte*/
+}
+body
+{
+    background: url("images/thumb-1920-318767.jpg") fixed no-repeat center #e1e1d0;
+}
+ul
+{
+    background-color: yellow;
+    background-position: center;
+    opacity:0.6;
+    width: 50%;
+    text-align: left;
+}
+a:hover 
+{
+    color:green; /* les liens changeront d'apparence et le a c'est pour les liens hypertexte*/
+}
+p:hover
+{
+    border-left: 3px solid red;
+}
+a:active /*permet de changer la couleur du lien losrqu'on clique dessus*/
+{
+    color:yellow; /*ne s'utilise que sur des liens contrairement à hover*/
+}
+a:visited
+{
+   
+}
+div 
+{
+    border-left-width: solid;
+}
